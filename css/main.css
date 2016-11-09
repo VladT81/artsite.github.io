@@ -1,0 +1,211 @@
+/****set font ****/
+@import url('https://fonts.googleapis.com/css?family=Bad+Script&subset=cyrillic');
+
+body{
+    background:#87CEFA;
+    font-family: 'Bad Script', cursive;
+}
+
+.main{
+    width:1200px;
+    height:1200px;
+    margin: 0 auto;
+    background:#fff;
+}
+.rainbow{
+    width:100%;
+    height:50px;
+    background: linear-gradient(to right, #f00 14.2%, #FFA500 28.5%, #ff0 42.8%, #008000 57.1%, #ADD8E6 71.4%, #0000FF 85.7%, #800080);
+}
+/****navigation panel****/
+.navigation{
+    height:35px;
+    padding-top:10px;
+    background: linear-gradient(to bottom, #C0C0C0 14.2%, white);
+}
+.navigation ul, .logIn ul{
+    width:84%;
+    list-style:none;
+    margin: 0 auto;
+}
+.navigation ul li, .logIn ul li{
+    float:left;
+}
+.navigation a, .logIn a{
+    padding: 0 34px;
+    color:#000080;
+    vertical-align:middle;
+}
+.navigation a.active{
+    color:#008000;
+}
+/****end navigation panel****/
+/****logo****/
+.logo{
+    width:73%;
+    height:260px;
+    margin: 0 auto;
+    color:maroon;
+}
+.logo div{
+    float:left;
+    padding:0 23px;
+}
+.logo div:nth-child(2){
+    padding-top:55px;
+}
+.logo h1{
+    font-size:52px;
+}
+.logo h2{
+    font-size:36px;
+}
+/****end logo****/
+/****logIn****/
+.logIn{
+    width:62%;
+    height:30px;
+    background:#4682B4;
+    border-radius:0 40px 10px 0;
+}
+.logIn a, .logIn input{
+    color:white;
+    font-size:16px;
+    vertical-align: middle;
+}
+.logIn input{
+    color:black;
+}
+.logIn button{
+    background:gold;
+    color:black;
+    border-radius:2px;
+}
+/****end logIn****/
+/****content****/
+.content{
+    width:80%;
+    height: 750px;
+    margin:0 auto;
+    clear:left;
+}
+.firstRow{
+    width:100%;
+    height: 380px;
+}
+.container1{
+    width:29.3%;
+    height: 87%;
+    margin:2%;
+    float:left;
+    border-radius:25px
+}
+.container1 h1{
+    text-align: center;
+    margin-top:10px;
+}
+.homeImg{
+    margin:10px 0;
+}
+.one{
+    background:linear-gradient(to top, #0000CD 5%, #FFE4E1);
+}
+.two{
+    background:linear-gradient(to top, #FF00FF 5%, #FFE4E1);
+}
+.free{
+    background:linear-gradient(to top, #006400 5%, #FFE4E1);
+}
+.btn{
+    width:150px;
+    height:20px;
+    padding:10px;
+    border-radius:5px;
+    border:solid 1px white;
+    text-align:center;
+    background:gold;
+    margin:0 auto;
+}
+.secondRow{
+    clear:left;
+    width:100%;
+    height: 350px;
+    background:linear-gradient(to bottom, #ADD8E6 15%, #FFE4E1 65%);
+    color:maroon;
+}
+.container2, .ff{
+    float:left;
+    height: 370px;
+}
+.four{
+    width:55%;
+}
+.ff{
+    border:solid 1px grey;
+    height:270px;
+    margin:35px 0;
+}
+.five{
+    width:44%;
+}
+.four h1, .five h1{
+    font-size:24px;
+    text-align:center;
+    margin:35px 0;
+}
+.four p{
+    line-height:140%;
+    padding:0 10px;
+    text-align:justify;
+    text-indent: 35px;
+}
+.four .tild{
+    text-align:center;
+    text-indent: 0px;
+}
+.five ol{
+    line-height:140%;
+    margin-left:15px;
+}
+.five ol a{
+    color:maroon;
+}
+.main .klaks{
+    position:absolute;
+    right: 400px;
+    top:1060px;
+}
+/****end content****/
+/****footer****/
+.footer{
+    clear:left;
+    width:100%;
+    height:75px;
+
+}
+.foot{
+    height: 25px;
+    background: linear-gradient(to top, #C0C0C0 14.2%, white);
+}
+.foot ul{
+    width:60%;
+    list-style:none;
+    margin-left:150px;
+}
+.foot ul li{
+    float:left;
+}
+.foot a{
+    padding: 0 5px;
+    color:#000080;
+    vertical-align:middle;
+}
+.foot a.active{
+    color:#008000;
+}
+.rainbow a p{
+    padding-top:13px;
+    text-align:center;
+    color:maroon;
+}
+/****end footer****/

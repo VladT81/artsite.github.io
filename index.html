@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="artWebSite" ng-controller="urlCtrl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ArtWebsite{{currentPath}}</title>
+    <link rel="stylesheet"  href="css/default.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body >
+<div ></div>
+<div class="main">
+    <div class="header">
+        <div class="rainbow"></div>
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a ui-sref="home" ui-sref-active="active">ГЛАВНАЯ</a>
+                    <span>|</span>
+                </li>
+                <li>
+                    <a ui-sref="about" ui-sref-active="active">ПРО МЕНЯ</a>
+                    <span>|</span>
+                </li>
+                <li>
+                    <a ui-sref="works" ui-sref-active="active">МОИ РАБОТЫ</a>
+                    <span>|</span>
+                </li>
+                <li>
+                    <a ui-sref="presents" ui-sref-active="active">ПРЕЗЕНТАЦИИ</a>
+                    <span>|</span>
+                </li>
+                <li>
+                    <a ui-sref="blog" ui-sref-active="active">БЛОГ</a>
+                    <span>|</span>
+                </li>
+                <li>
+                    <a ui-sref="contact" ui-sref-active="active">КОНТАКТЫ</a>
+                </li>
+            </ul>
+        </div><!--end navigation-->
+    </div><!--end header-->
+
+    <div class="logo">
+        <div class="divLogo">
+            <img class="left_img" src="http://seabattle.96.lt/freeCodeCamp/ArtWebsite/klaks_left.png" alt="" />
+        </div>
+        <div>
+            <h1>Art Website</h1>
+            <h2>Tkachenko Ksenii</h2>
+        </div>
+        <div class="divLogo">
+            <img class="right_img" src="http://seabattle.96.lt/freeCodeCamp/ArtWebsite/klaks_right.png" alt="" />
+        </div>
+    </div><!--end logo-->
+    <div class="logIn">
+        <ul>
+            <li><a href="#">Аккаунт</a></li>
+            <li><a href="#">Установки</a></li>
+            <li><a href="#">Выход</a></li>
+            <li><input type="text" name="search" maxlength="20" title=""></li>
+            <li><button>go</button></li>
+        </ul>
+    </div><!--end logIn-->
+    <div class="content">
+        <ui-view></ui-view>
+    </div><!--end content-->
+<div class="klaks"><img src="http://seabattle.96.lt/freeCodeCamp/ArtWebsite/klaks_footer.png" alt="клякса"/></div>
+<div class="footer">
+    <div class="foot">
+        <ul>
+            <li>
+                <a ui-sref="home" ui-sref-active="active">ГЛАВНАЯ</a>
+                <span>|</span>
+            </li>
+            <li>
+                <a ui-sref="about" ui-sref-active="active">ПРО МЕНЯ</a>
+                <span>|</span>
+            </li>
+            <li>
+                <a ui-sref="works" ui-sref-active="active">МОИ РАБОТЫ</a>
+                <span>|</span>
+            </li>
+            <li>
+                <a ui-sref="presents" ui-sref-active="active">ПРЕЗЕНТАЦИИ</a>
+                <span>|</span>
+            </li>
+            <li>
+                <a ui-sref="blog" ui-sref-active="active">БЛОГ</a>
+                <span>|</span>
+            </li>
+            <li>
+                <a ui-sref="contact" ui-sref-active="active">КОНТАКТЫ</a>
+            </li>
+        </ul>
+    </div>
+    <div class="rainbow">
+        <a href="https://ua.linkedin.com/in/vladimir-tkachenko" target="blank_"><p>Copyright &#169; 2016 Vladimir Tkachenko</p></a>
+    </div>
+</div><!--end footer-->
+</div><!--end main-->
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script>
+<script src="//unpkg.com/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script src="js/libs/angular-ui-router.js"></script>
+<script src="js/app.js"></script>
+<script src="js/config.js"></script>
+<!--include directives-->
+<script src="js/directives/mainDirective.js"></script>
+</body>
+</html>
+
+
+
+
+
